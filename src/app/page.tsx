@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { EmailForm } from "@/components/EmailForm";
 import HeroScene from "@/components/HeroScene";
 import { BookOpen, Sparkles, Wallet } from "lucide-react";
@@ -88,9 +89,9 @@ export default function Home() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 text-retro-dark font-bold">
           <p>© 2024 Bookrentalapp. Alle rechten voorbehouden.</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:underline decoration-4 underline-offset-4 decoration-retro-pink">Privacy</a>
-            <a href="#" className="hover:underline decoration-4 underline-offset-4 decoration-retro-blue">Voorwaarden</a>
-            <a href="#" className="hover:underline decoration-4 underline-offset-4 decoration-retro-green">Contact</a>
+            <Link href="/privacy" className="hover:underline decoration-4 underline-offset-4 decoration-retro-pink">Privacy</Link>
+            <Link href="/voorwaarden" className="hover:underline decoration-4 underline-offset-4 decoration-retro-blue">Voorwaarden</Link>
+            <Link href="/contact" className="hover:underline decoration-4 underline-offset-4 decoration-retro-green">Contact</Link>
           </div>
         </div>
       </footer>
