@@ -93,8 +93,14 @@ export async function POST(req: Request) {
         }
 
         // 2. Send Confirmation Email via Resend
+        // NOTE: Email sending is disabled until a custom domain is set up in Resend
+        // Resend requires a verified domain to send emails to anyone
+        // For now, we're just collecting emails in the database
+        // Uncomment this section once you have a domain configured
+
+        /*
         const { error: emailError } = await resend.emails.send({
-            from: "Bookrentalapp <onboarding@resend.dev>", // Update this with your verified domain
+            from: "Bookrentalapp <hello@yourdomain.com>", // Update with your verified domain
             to: sanitizedEmail,
             subject: "Welkom bij Bookrentalapp!",
             html: `
@@ -112,6 +118,7 @@ export async function POST(req: Request) {
             });
             // We still return success because the DB save worked
         }
+        */
 
         return NextResponse.json({ success: true });
     } catch (error) {
