@@ -31,7 +31,7 @@ export default function Home() {
 
         <p className="text-xl md:text-2xl text-retro-dark/80 max-w-2xl leading-relaxed font-bold mb-12">
           De slimste manier om je bibliotheek uit te breiden zonder je portemonnee te legen.
-          Meld je aan voor updates.
+          Schrijf je nu in om als eerste te weten wanneer we live gaan!
         </p>
 
         <div className="w-full max-w-md bg-white/80 backdrop-blur-sm p-2 rounded-2xl border-4 border-retro-dark shadow-[8px_8px_0px_0px_rgba(45,55,72,1)]">
