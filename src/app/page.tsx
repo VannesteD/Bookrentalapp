@@ -14,7 +14,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="relative z-50 w-full px-6 py-6 flex justify-between items-center max-w-7xl mx-auto">
         <div className="text-2xl font-black tracking-tighter text-retro-dark">
-          Bookrentalapp
+          Rentabook
         </div>
         <div className="px-4 py-2 bg-retro-dark text-retro-cream rounded-full text-sm font-bold shadow-lg transform hover:scale-105 transition-transform cursor-default">
           Binnenkort beschikbaar
