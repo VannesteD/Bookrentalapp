@@ -54,9 +54,9 @@ export default function Home() {
             <div className="h-16 w-16 rounded-2xl bg-retro-pink text-retro-dark flex items-center justify-center border-4 border-retro-dark mb-6 shadow-[4px_4px_0px_0px_rgba(45,55,72,1)]">
               <BookOpen className="h-8 w-8" />
             </div>
-            <h3 className="text-2xl font-black text-retro-dark mb-3">Enorme Collectie</h3>
+            <h3 className="text-2xl font-black text-retro-dark mb-3">Een gedeelde boekenbibliotheek, door en voor lezers</h3>
             <p className="text-retro-dark/80 font-bold leading-relaxed">
-              Toegang tot duizenden titels, van bestsellers tot verborgen parels.
+              We bouwen aan een community waar lezers hun boeken met elkaar delen. Jij kiest welke boeken je verhuurt of huurt.
             </p>
           </div>
 
