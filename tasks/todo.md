@@ -46,3 +46,4 @@
         - [x] Update Footer Branding (Rentabook)
         - [x] Update Navigation Logo (Rentabook)
         - [x] Update Hero Copy (Headline & Subheadline)
+        - [x] Layout Refinement (Merge Hero/Features, Social Proof, End CTA)

@@ -22,7 +22,8 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative z-10 flex-1 flex flex-col justify-center items-center text-center max-w-5xl mx-auto px-6 py-20 w-full">
+      {/* Hero Section */}
+      <section className="relative z-10 flex flex-col justify-center items-center text-center max-w-5xl mx-auto px-6 pt-20 pb-8 w-full">
         <h1 className="text-6xl md:text-8xl font-black tracking-tight text-retro-dark leading-[0.9] drop-shadow-sm mb-8">
           Huur boeken.<br />
           <span className="text-retro-blue">Bespaar geld.</span><br />
@@ -38,16 +39,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Wavy Divider */}
-      <div className="relative z-20 w-full leading-[0] rotate-180">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="fill-retro-yellow"></path>
-        </svg>
-      </div>
-
       {/* Features Section */}
-      <section className="relative z-20 bg-retro-yellow border-t-0">
-        <div className="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-3 gap-12">
+      <section className="relative z-20">
+        <div className="max-w-7xl mx-auto px-6 py-8 grid md:grid-cols-3 gap-12">
           {/* Feature 1 */}
           <div className="bg-white p-8 rounded-3xl border-4 border-retro-dark shadow-[8px_8px_0px_0px_rgba(45,55,72,1)] hover:-translate-y-2 transition-transform duration-300">
             <div className="h-16 w-16 rounded-2xl bg-retro-pink text-retro-dark flex items-center justify-center border-4 border-retro-dark mb-6 shadow-[4px_4px_0px_0px_rgba(45,55,72,1)]">
@@ -81,6 +75,26 @@ export default function Home() {
             <p className="text-retro-dark/80 font-bold leading-relaxed">
               Huur en verhuur veilig en zonder zorgen. Goed voor je portemonnee én het milieu.
             </p>
+          </div>
+        </div>
+
+        {/* Social Proof */}
+        <div className="text-center mt-4 mb-20">
+          <p className="text-sm font-bold text-retro-dark/70 bg-white/60 inline-flex items-center gap-2 px-4 py-2 rounded-full backdrop-blur-sm border-2 border-retro-dark/10">
+            🔒 Al 23 lezers schreven zich in voor early access.
+          </p>
+        </div>
+      </section>
+
+      {/* End CTA Section */}
+      <section className="relative z-20 py-20 px-6 bg-retro-yellow border-t-4 border-retro-dark text-center">
+        <div className="max-w-2xl mx-auto flex flex-col items-center">
+          <h2 className="text-4xl md:text-5xl font-black text-retro-dark mb-8 tracking-tight leading-tight">
+            We gaan binnenkort live.<br />
+            <span className="text-retro-pink">Mis de eerste weken niet.</span>
+          </h2>
+          <div className="w-full max-w-md bg-white/80 backdrop-blur-sm p-2 rounded-2xl border-4 border-retro-dark shadow-[8px_8px_0px_0px_rgba(45,55,72,1)]">
+            <EmailForm />
           </div>
         </div>
       </section>
