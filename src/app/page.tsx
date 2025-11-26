@@ -89,7 +89,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="relative z-20 py-12 px-6 bg-retro-yellow border-t-4 border-retro-dark">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 text-retro-dark font-bold">
-          <p>© 2024 Bookrentalapp. Alle rechten voorbehouden.</p>
+          <p>© 2024 Rentabook. Alle rechten voorbehouden.</p>
           <div className="flex gap-6">
             <Link href="/privacy" className="hover:underline decoration-4 underline-offset-4 decoration-retro-pink">Privacy</Link>
             <Link href="/voorwaarden" className="hover:underline decoration-4 underline-offset-4 decoration-retro-blue">Voorwaarden</Link>
