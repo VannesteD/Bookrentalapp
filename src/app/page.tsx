@@ -29,7 +29,7 @@ export default function Home() {
         </h1>
 
         <p className="text-xl md:text-2xl text-retro-dark/80 max-w-2xl leading-relaxed font-bold mb-12">
-          Boeken huren of verhuren: goedkoop, lokaal, eenvoudig. Schrijf je in als early-member
+          Boeken huren of verhuren: goedkoop, lokaal, eenvoudig. Schrijf je in als early-member en huur de eerste week gratis!
         </p>
 
         <div className="w-full max-w-md bg-white/80 backdrop-blur-sm p-2 rounded-2xl border-4 border-retro-dark shadow-[8px_8px_0px_0px_rgba(45,55,72,1)]">
