@@ -24,8 +24,9 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative z-10 flex-1 flex flex-col justify-center items-center text-center max-w-5xl mx-auto px-6 py-20 w-full">
         <h1 className="text-6xl md:text-8xl font-black tracking-tight text-retro-dark leading-[0.9] drop-shadow-sm mb-8">
-          Geen dure boeken meer,<br />
-          <span className="text-retro-blue">huur ze in jouw buurt.</span>
+          Huur boeken.<br />
+          <span className="text-retro-blue">Bespaar geld.</span><br />
+          <span className="text-retro-pink">Lees meer.</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-retro-dark/80 max-w-2xl leading-relaxed font-bold mb-12">
